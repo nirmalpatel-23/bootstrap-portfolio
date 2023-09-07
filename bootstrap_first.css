@@ -1,0 +1,239 @@
+/* Common Classes */
+.btn-custom {
+  background-color: #f87c58;
+  color: white;
+  border-radius: 2px;
+}
+
+.btn-custom:hover {
+  background-color: #f87c58;
+  color: white;
+  border-color: rgb(203, 202, 202);
+
+  border-radius: 2px;
+}
+
+.btn-custom-outline {
+  background-color: #333647;
+  border-color: rgb(203, 202, 202);
+  border-radius: 2px;
+  color: white;
+}
+
+.btn-custom-outline:hover {
+  background-color: #333647;
+  border-color: white;
+}
+
+.bw-img {
+  filter: grayscale(100%);
+}
+
+.custom-dotted {
+  height: 80px;
+  border: 2px dashed transparent;
+  border-right-color: #f87c58;
+}
+
+.bg-custom-light {
+  color: white;
+  background-color: #333647;
+}
+
+.bg-custom-dark {
+  color: white;
+  background-color: #282a39;
+}
+
+.bg-custom-darker {
+  color: white;
+  background-color: #12121c;
+}
+
+/* First Page */
+
+/* Navbar Section */
+.custom-navbar .navbar-brand img {
+  height: 45px;
+}
+
+.custom-navbar .navbar-nav {
+  align-items: center;
+}
+
+.custom-navbar .nav-link {
+  color: white;
+}
+
+.custom-navbar .nav-link.active {
+  color: #f87c58;
+}
+
+/* Hero Section */
+
+.hero-section img {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: 280px;
+  outline-style: dotted;
+  outline-offset: 4px;
+  background-color: #282a39;
+}
+
+/* Second Page  */
+
+.bg-custom-dark .progress .progress-bar {
+  width: 80%;
+  background-color: #f87c58;
+}
+
+.bg-custom-dark .pro-bar {
+  margin-bottom: 70px;
+}
+
+.btn-custom-outline-2 {
+  background-color: #282a39;
+}
+
+.dis-img {
+  background-color: rgb(2, 2, 22);
+  width: 150px;
+  padding: 20px;
+}
+
+/* Third Page */
+
+/* How to make dotted line */
+
+.objectives .blocks {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.objectives .logo-img {
+  border-radius: 20px;
+}
+
+.objectives .blocks .ms-auto {
+  color: #f87c58;
+}
+
+.blocks .img-fluid {
+  margin-right: 20px;
+  border-radius: 90px;
+  background-color: #333647;
+}
+
+/* Fourth Page */
+
+.custom-box .p-3.box {
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px dotted blanchedalmond;
+  background-color: black;
+}
+
+.custom-experience .heroine-2 {
+  border-radius: 22px;
+  align-items: center;
+  outline-style: dotted;
+  outline-offset: 4px;
+  background-color: #333647;
+  aspect-ratio: 1;
+  max-width: 400px;
+  margin: 50px;
+}
+
+/* FIfth Page */
+
+.bg-custom-light .custom-pics {
+  filter: grayscale(100%);
+  aspect-ratio: 1;
+}
+
+/* Sixth Page */
+
+/* HOWWWWW */
+
+.heroine-3 .img-fluid {
+  border-radius: 100%;
+  outline: 5px solid #f87c58;
+  outline-offset: -45px;
+}
+
+.custom-testimonials .para {
+  padding: 0px 400px;
+}
+
+/* Seventh-Page */
+
+.card-body .custom-arrow a {
+  color: #f87c58;
+  text-decoration: none;
+}
+
+.custom-card .card {
+  height: 420px;
+  width: 400px;
+  aspect-ratio: 1;
+  border-color: #333647;
+}
+
+.custom-card .card-body {
+  background-color: black;
+  color: white;
+  border: 1px dashed#58595D;
+  padding-left: 35px;
+  padding-top: 40px;
+}
+
+/* Eigth-Page */
+
+.custom-con {
+  display: flex;
+}
+.custom-con .img-con {
+  background-color: #333647;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  height: 50px;
+  width: 50px;
+  margin-top: 09px;
+}
+
+.custom-con .custom-contact {
+  clear: both;
+}
+.custom-symbols {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+}
+
+.contact-us .form-control {
+  background-color: #333647;
+  color: white;
+  /* width: 350px; */
+  border-color: #282a39;
+}
+
+.contact-us textarea.form-control {
+  height: 180px;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.custom-footer {
+  margin-top: 100px;
+}

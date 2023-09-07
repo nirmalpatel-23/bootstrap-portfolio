@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./bootstrap_first.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--nav bar  -->
+    <nav class="navbar navbar-expand-md custom-navbar bg-custom-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/images/Logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav fs-6">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <button class="btn btn-custom">Hire me!</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Hero Section  -->
+    <section class="hero-section bg-custom-light">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-6">
+            <div class="d-flex flex-column justify-content-center h-100">
+              <p>
+                <span class="btn-custom px-2 py-1">Hello, I am</span>
+              </p>
+              <h1 class="mb-3"><b> I'm Jessica Thomas </b></h1>
+              <p class="fs-6 mb-4">Freelance UI/UX & website designer</p>
+              <div>
+                <button class="btn btn-custom">Download CV</button>
+                <button class="btn ms-2 btn-custom-outline">My Work</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 text-center">
+            <img src="/assets/images/heroine.png" alt="heroine" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Page -->
+
+    <section class="bg-custom-dark">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-6 text-start mt-4">
+            <div>
+              <div class="bw-img">
+                <img
+                  src="/assets/images/monitor-pic.png"
+                  height="500px"
+                  width="400px"
+                  alt="monitor-pic"
+                />
+              </div>
+              <div class="dis-img">
+                <h3>06</h3>
+                <h5>
+                  Years of <br />
+                  Experience
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 align-content-start mt-5">
+            <h2 class="mb-5">
+              <b>
+                Read About My Life <br />
+                Struggle Story!</b
+              >
+            </h2>
+
+            <p class="fs-6 mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+              harum deleniti distinctio magnam laborum ratione quam perspiciatis
+              qui officia corporis reiciendis dolorum asperiores, quos adipisci
+              reprehenderit perferendis! Exercitationem, quo repellat?
+            </p>
+            <div class="pro-bar">
+              <p class="fs-6 mb-2">Designing 100%</p>
+
+              <!-- New markup -->
+              <div
+                class="progress mb-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+              <p class="fs-6 mb-2">HTML 75%</p>
+
+              <!-- New markup -->
+              <div
+                class="progress mb-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+              <p class="fs-6 mb-2">CSS 85%</p>
+
+              <!-- New markup -->
+              <div
+                class="progress mb-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+              <p class="fs-6 mb-2">Word Press 95%</p>
+
+              <!-- New markup -->
+              <div
+                class="progress mb-3"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="sideby">
+              <button class="btn btn-custom">Hire me!</button>
+              <button class="btn ms-2 btn-custom-outline btn-custom-outline-2">
+                About me
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third Page -->
+
+    <section class="bg-custom-light">
+      <div class="row">
+        <div class="col-6 custom-dotted"></div>
+        <div class="col-6"></div>
+      </div>
+      <!-- </div> -->
+
+      <div class="container pt-3 pb-5">
+        <h2 class="text-center"><b> Our Services</b></h2>
+        <p class="fs-6 text-center mb-5">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+          dicta? Minima reiciendis dolorum laudantium esse necessitatibus
+          architecto possimus dolore in, ipsum nemo, assumenda pariatur quis
+          fugit aspernatur consequatur, sint sunt.
+        </p>
+
+        <!-- Blocks - objectives -->
+
+        <div class="objectives">
+          <div class="px-3 text-center">
+            <div class="row row-cols-3 gx-3 gy-4 text-start">
+              <div class="col">
+                <div class="py-3 px-4 blocks">
+                  <span>
+                    <img
+                      src="/assets/images/insta.png"
+                      class="img-fluid"
+                      alt="insta"
+                  /></span>
+                  <span>Wordpress</span><span class="ms-auto fs-3">➞</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="py-3 px-4 blocks">
+                  <span>
+                    <img
+                      src="/assets/images/insta.png"
+                      class="img-fluid"
+                      alt="insta"
+                  /></span>
+                  <span>HTML</span><span class="ms-auto fs-3">➞</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="py-3 px-4 blocks">
+                  <span>
+                    <img
+                      src="/assets/images/insta.png"
+                      class="img-fluid"
+                      alt="insta"
+                  /></span>
+                  <span>Web Developement</span
+                  ><span class="ms-auto fs-3">➞</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="py-3 px-4 blocks">
+                  <span>
+                    <img
+                      src="/assets/images/insta.png"
+                      class="img-fluid"
+                      alt="insta"
+                  /></span>
+                  <span>CSS</span><span class="ms-auto fs-3">➞</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="py-3 px-4 blocks">
+                  <span>
+                    <img
+                      src="/assets/images/insta.png"
+                      class="img-fluid"
+                      alt="insta"
+                  /></span>
+                  <span>PHP</span><span class="ms-auto fs-3">➞</span>
+                </div>
+              </div>
+              <div class="col">
+                <div class="py-3 px-4 blocks">
+                  <span>
+                    <img
+                      src="/assets/images/insta.png"
+                      class="img-fluid"
+                      alt="insta"
+                  /></span>
+                  <span>Problem Solving</span
+                  ><span class="ms-auto fs-3">➞</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5 p-4">
+          <button class="btn btn-custom">View All</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fourth Page -->
+
+    <section class="bg-custom-dark">
+      <div class="container py-5">
+        <div class="row custom-experience">
+          <div class="col-6">
+            <div class="heroine-2 mx-auto">
+              <img
+                src="/assets/images/2-heroine.png"
+                height="400px"
+                width="400px"
+                alt="heroine"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-6 container justify-content-start mt-4">
+            <h2 class="mb-2"><b> More Reasons to choose Me </b></h2>
+            <p class="fs-6 mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              ipsa dicta magni aperiam, veniam voluptate cum voluptates debitis
+              nam cupiditate? Et quod obcaecati facere tenetur laboriosam
+              delectus vero itaque quasi!
+            </p>
+            <div>
+              <div class="container overflow-hidden text-center custom-box">
+                <div class="row gy-5">
+                  <div class="col-6">
+                    <div class="p-3 box">
+                      <p class="h3 mb-2">50+</p>
+                      <p class="h6">Clients</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="p-3 box mb-2">
+                      <p class="h3">68</p>
+                      <p class="h6">Projects</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="p-3 box mb-2">
+                      <p class="h3">30</p>
+                      <p class="h6">Awards</p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="p-3 box mb-2">
+                      <p class="h3">06</p>
+                      <p class="h6">Years Experience</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Page -->
+
+    <section class="bg-custom-light">
+      <div class="row">
+        <div class="col-6 custom-dotted"></div>
+        <div class="col-6"></div>
+      </div>
+
+      <div class="container py-5">
+        <p class="h2 text-center mb-3"><b> Our Portfolio </b></p>
+        <p class="text-center fs-6 mb-5">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          sunt aperiam ducimus vitae voluptas, dolores dolorum ipsam,
+          necessitatibus quam, placeat eos omnis pariatur delectus laudantium
+          amet consequuntur possimus. Magnam, natus.
+        </p>
+        <div class="row row-cols-3 g-1">
+          <div class="col custom-pics mb-2">
+            <img
+              src="/assets/images/1.png"
+              height="400px"
+              width="380px"
+              alt=""
+            />
+          </div>
+          <div class="col custom-pics mb-2">
+            <img
+              src="/assets/images/2.png"
+              height="400px"
+              width="380px"
+              alt=""
+            />
+          </div>
+          <div class="col custom-pics mb-2">
+            <img
+              src="/assets/images/3.png"
+              height="400px"
+              width="380px"
+              alt=""
+            />
+          </div>
+          <div class="col custom-pics mb-2">
+            <img
+              src="/assets/images/4.png"
+              height="400px"
+              width="380px"
+              alt=""
+            />
+          </div>
+          <div class="col custom-pics mb-2">
+            <img
+              src="/assets/images/5.png"
+              height="400px"
+              width="380px"
+              alt=""
+            />
+          </div>
+          <div class="col custom-pics mb-2">
+            <img
+              src="/assets/images/6.png"
+              height="400px"
+              width="380px"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="text-center mt-2 p-4">
+          <button class="btn btn-custom">View All</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sixth-Page -->
+
+    <section class="bg-custom-dark">
+      <div class="row">
+        <div class="col-6 custom-dotted"></div>
+        <div class="col-6"></div>
+      </div>
+
+      <div class="container custom-testimonials pt-3 pb-5">
+        <h2 class="text-center mb-1"><b> Testimonials </b></h2>
+        <p class="text-center mb-4">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam iste
+          laborum, dolorum provident dignissimos atque culpa, esse harum cumque
+          sapiente obcaecati reprehenderit at consequuntur sequi alias a autem,
+          placeat numquam?
+        </p>
+
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="heroine-3 text-center mb-3">
+                <img
+                  src="/assets/images/3-heroine.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center mb-3">
+                <img
+                  src="/assets/images/left-quote.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <h3 class="text-center mb-2"><b>John Doe</b></h3>
+              <h6 class="text text-center mb-5">CEO Company</h6>
+              <div class="para">
+                <p class="text-center fs-6">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Inventore aliquam id esse nostrum quas sint perferendis ea
+                  nulla reprehenderit unde quasi, magnam aut dicta repellendus
+                  laudantium. Voluptatibus cupiditate ex explicabo.Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Error reiciendis
+                  excepturi sequi odio quaerat.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="heroine-3 text-center mb-3">
+                <img
+                  src="/assets/images/3-heroine.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center mb-3">
+                <img
+                  src="/assets/images/left-quote.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <h3 class="text-center mb-2"><b>John Doe</b></h3>
+              <h6 class="text text-center mb-5">CEO Company</h6>
+              <div class="para">
+                <p class="text-center fs-6">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Inventore aliquam id esse nostrum quas sint perferendis ea
+                  nulla reprehenderit unde quasi, magnam aut dicta repellendus
+                  laudantium. Voluptatibus cupiditate ex explicabo.Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Error reiciendis
+                  excepturi sequi odio quaerat.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="heroine-3 text-center mb-3">
+                <img
+                  src="/assets/images/3-heroine.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text-center mb-3">
+                <img
+                  src="/assets/images/left-quote.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+
+              <h3 class="text-center mb-2"><b>John Doe</b></h3>
+              <h6 class="text text-center mb-5">CEO Company</h6>
+              <div class="para">
+                <p class="text-center fs-6">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Inventore aliquam id esse nostrum quas sint perferendis ea
+                  nulla reprehenderit unde quasi, magnam aut dicta repellendus
+                  laudantium. Voluptatibus cupiditate ex explicabo.Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Error reiciendis
+                  excepturi sequi odio quaerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--  Seventh-Page -->
+
+    <section class="bg-custom-light">
+      <div class="row">
+        <div class="col-6 custom-dotted"></div>
+        <div class="col-6"></div>
+      </div>
+      <div class="container pt-3 pb-5">
+        <h2 class="text-center mb-1"><b>Latest Blog </b></h2>
+        <p class="fs-6 mb-5 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+          inventore voluptatibus perferendis aliquam dolores similique sequi.
+          Labore voluptates eius dolor, ut nihil accusantium aliquid, corrupti,
+          assumenda explicabo nostrum eos cum.
+        </p>
+        <div class="row row-cols-3 gx-1 mb-5">
+          <div class="col">
+            <div class="custom-card">
+              <div class="card">
+                <img
+                  src="/assets/images/post-6.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-4">25<sup>th</sup> October, 2020</h5>
+                  <p class="card-text h5">
+                    <b>
+                      I Used The Web For A Day <br />
+                      On A 50 MB Budget</b
+                    >
+                  </p>
+                  <div class="custom-arrow fs-6">
+                    <a href="" class="d-flex align-items-center">
+                      <b> Learn More </b>
+                      <span class="ms-3 fs-4"> → </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="custom-card">
+              <div class="card">
+                <img
+                  src="/assets/images/post-7.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-4">25<sup>th</sup> October, 2020</h5>
+                  <p class="card-text h5">
+                    <b>
+                      I Used The Web For A Day <br />
+                      On A 50 MB Budget</b
+                    >
+                  </p>
+                  <div class="custom-arrow fs-6">
+                    <a href="" class="d-flex align-items-center">
+                      <b> Learn More </b>
+                      <span class="ms-3 fs-4"> → </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="custom-card">
+              <div class="card">
+                <img
+                  src="/assets/images/post-8.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-4">25<sup>th</sup> October, 2020</h5>
+                  <p class="card-text h5">
+                    <b>
+                      I Used The Web For A Day <br />
+                      On A 50 MB Budget</b
+                    >
+                  </p>
+                  <div class="custom-arrow fs-6">
+                    <a href="" class="d-flex align-items-center">
+                      <b> Learn More </b>
+                      <span class="ms-3 fs-4"> → </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-2 p-4">
+          <button class="btn btn-custom">View All</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eigth-Page -->
+
+    <section class="bg-custom-darker contact-us">
+      <div class="container pt-5 pb-3">
+        <div class="row">
+          <div class="col-4">
+            <p class="h2 mb-2">
+              <b>Contact Us</b>
+            </p>
+            <p class="h6 mb-5">
+              Let's make something new, different <br />
+              and more meaningful or make things<br />
+              more visual and conceptual?
+            </p>
+            <div class="mb-5">
+              <div class="custom-con mb-4">
+                <div class="img-con text-center">
+                  <img
+                    src="/assets/images/phone.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="custom-contact ms-3 d-block">
+                  <p class="mb-0 opacity-25">Call Me</p>
+                  <p class="h4">+123 456 7890</p>
+                </div>
+              </div>
+
+              <div class="custom-con mb-4">
+                <div class="img-con text-center">
+                  <img
+                    src="/assets/images/email-line.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="custom-contact ms-3 d-block">
+                  <p class="mb-0 opacity-25">Email</p>
+                  <p class="h4">info@coder.com</p>
+                </div>
+              </div>
+              <div class="custom-con mb-4">
+                <div class="img-con text-center">
+                  <img
+                    src="/assets/images/location-3.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="custom-contact ms-3 d-block">
+                  <p class="mb-0 opacity-25">Address</p>
+                  <p class="h4">
+                    27 Divison St, New <br />
+                    York, NY 10002, USA
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p class="h5 mb-5">Find me on</p>
+            <div class="custom-symbols">
+              <img
+                src="/assets/images/behance.png"
+                height="20px"
+                width="20px"
+                alt=""
+              />
+
+              <img
+                src="/assets/images/dribbble.png"
+                height="20px"
+                width="20px"
+                alt=""
+              />
+              <img
+                src="/assets/images/insta.png"
+                height="20px"
+                width="20px"
+                alt=""
+              />
+              <img
+                src="/assets/images/linked in.png"
+                height="20px"
+                width="20px"
+                alt=""
+              />
+              <img
+                src="/assets/images/pinterest.png"
+                height="20px"
+                width="20px"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-7 offset-1">
+            <p class="h1 mb-5">
+              <b>Drop a Line</b>
+            </p>
+            <div class="row row-cols-2 gx-4 gy-5">
+              <div class="col custom-display">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col custom-display">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="Email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="col custom-display">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Phone"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="col custom-display">
+                <select
+                  class="form-select form-control"
+                  aria-label="Default select example"
+                >
+                  <option selected>Budget</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <textarea name="text" id="" class="form-control">
+Message</textarea
+                >
+              </div>
+            </div>
+
+            <div class="mt-5">
+              <button class="btn btn-lg btn-custom">Submit</button>
+            </div>
+          </div>
+        </div>
+        <footer class="custom-footer">
+          <hr />
+          <p class="mt-3 text-center h4 fs-5">
+            Copyright © 2020Jessica Thomas. All Rights Reserved.
+          </p>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

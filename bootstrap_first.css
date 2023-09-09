@@ -9,7 +9,6 @@
   background-color: #f87c58;
   color: white;
   border-color: rgb(203, 202, 202);
-
   border-radius: 2px;
 }
 
@@ -23,10 +22,6 @@
 .btn-custom-outline:hover {
   background-color: #333647;
   border-color: white;
-}
-
-.bw-img {
-  filter: grayscale(100%);
 }
 
 .custom-dotted {
@@ -70,6 +65,9 @@
 }
 
 /* Hero Section */
+.hero-section .intro {
+  text-align: center;
+}
 
 .hero-section img {
   border-radius: 50%;
@@ -95,10 +93,34 @@
   background-color: #282a39;
 }
 
+.bw-img {
+  filter: grayscale(100%);
+  position: relative;
+  width: 100%;
+}
+
 .dis-img {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: rgb(2, 2, 22);
   width: 150px;
   padding: 20px;
+  border-radius: 20px;
+}
+
+.dis-img .design {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+.dis-img .design span {
+  height: 22px;
+  width: 10px;
+  background-color: white;
 }
 
 /* Third Page */
@@ -164,7 +186,7 @@
 }
 
 .custom-testimonials .para {
-  padding: 0px 400px;
+  padding: 0px;
 }
 
 /* Seventh-Page */
@@ -176,7 +198,7 @@
 
 .custom-card .card {
   height: 420px;
-  width: 400px;
+  width: 100%;
   aspect-ratio: 1;
   border-color: #333647;
 }
@@ -236,4 +258,31 @@
 
 .custom-footer {
   margin-top: 100px;
+}
+
+/* Tablet + Laptop Screens */
+@media only screen and (min-width: 576px) {
+  .hero-section .intro {
+    text-align: left;
+  }
+
+  .custom-testimonials .para {
+    padding: 0px 400px;
+  }
+
+  .custom-card .card {
+    width: 400px;
+  }
+
+  .bw-img {
+    position: relative;
+    width: 70%;
+  }
+
+  .dis-img {
+    position: absolute;
+    bottom: -69px;
+    left: -50px;
+    transform: none;
+  }
 }
